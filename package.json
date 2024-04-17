@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/manyyuri/prefetch-plugin#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "dependencies": {}
 }
