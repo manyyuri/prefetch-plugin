@@ -22,7 +22,7 @@ class PrefetchPlugin {
       .filter((chunk) => {
         const { id, name } = chunk;
         chunks.set(id, chunk);
-        if (classNames === "all") {
+        if (chunkNames === "all") {
           return excludeChunkNames.indexOf(name) === -1;
         }
         return (
